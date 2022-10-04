@@ -1,12 +1,15 @@
+/* Navbar Styling */
 nav {
     background-color: #222222 !important;
     border-bottom: #ffffff solid 5px !important;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 a.nav {
     text-decoration: none;
     color: white !important;
-    padding: 18px 20px !important;
+    padding: 18px 22px !important;
     font-size: 110%;
     font-weight: bold;
 }
@@ -15,20 +18,41 @@ a:hover {
     color: cornflowerblue !important;
 }
 
-h1, p {
-    margin: 0px !important;
-    padding: 100px 18px 10px !important;
+div.nav {
+    border: 0;
 }
+
+
+/* Content Div Styling */
+
+div.content {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+body {
+    background-color: rgb(0, 65, 129) !important;
+    color: white !important;
+}
+
+/* Text Styling */
 
 h1 {
     font-size: 375% !important;
+}
+
+h1.homePageTitle {
+    padding: 120px 18px 10px !important;
 }
 
 h2 {
     font-size: 150% !important;
 }
 
-body {
-    background-color: rgb(0, 65, 129) !important;
-    color: white !important;
+h1.contentPageTitle {
+    padding: 45px 18px 15px !important;
+}
+
+p {
+    padding-left: 18px;
 }
